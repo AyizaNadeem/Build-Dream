@@ -1,0 +1,237 @@
+body{
+    width: 100%;
+}
+ul{
+    justify-content: space-around;
+    word-spacing: 6px;
+    font-weight:bolder;  
+   justify-items: flex-start;
+   padding-right: 30px;
+}
+.back{
+    background-image: url(back1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+@media screen and (min-width:300px) and (max-width:900px) {
+    .back{
+        font-size: medium;
+    }
+}
+
+#heading{
+    color: black;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    padding:100px 80px 20px;
+    font-size: 75px;
+    font-weight: bold;
+}
+#main_text{
+    color: black;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    font-size: 15px;
+    padding:10px 80px 30px;
+}
+/* From cssbuttons.io by @alexmaracinaru */
+.main_button {
+    cursor: pointer;
+    font-weight: 700;
+    font-family: Helvetica,"sans-serif";
+    transition: all .2s;
+    padding: 4px 10px;
+    background: black;
+    color: white;
+    border: solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin: 10px 80px 40px;
+   }
+   
+   .main_button > svg {
+    width: 34px;
+    margin-left: 10px;
+    transition: transform .3s ease-in-out;
+   }
+   
+   .main_button:hover svg {
+    transform: translateX(5px);
+   }
+   
+   .main_button:active {
+    transform: scale(0.95);
+   }
+   #button-icon{
+       padding-left: 20px;
+       color: white;
+       font-size: 25px;
+   }
+   .services{
+       background-color: rgb(255, 174, 0);
+       text-align: center;
+       color: white;
+   }
+   .cd-style{
+    padding: 50px 30px;
+    background-color: rgb(255, 174, 0);
+    text-align: center;
+    border-style: none;
+    border-style: none;
+   }
+   .card_icon{
+       color:rgb(255, 174, 0);
+       font-size: 50px;
+       font-weight: bolder;
+       padding-bottom: 20px;
+   }
+   .back2{
+       background-image: url(back2.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       height: 100vh;
+       padding:100px 80px 20px;
+   }
+   .main_button2{
+    cursor: pointer;
+    font-weight: 700;
+    font-family: Helvetica,"sans-serif";
+    transition: all .2s;
+    padding: 4px 10px;
+    background: rgb(255, 174, 0);
+    color: black;
+    border: solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    padding:10px 15px 10px;
+   }
+   .first{
+       display: flex;
+       /* flex: row; */
+       position: relative;
+       background-color: white;
+       /* width: 50%; */
+       height: 700px;
+       /* float: left; */
+   }
+  .item{
+      position: relative;
+      padding: 20px;
+  }
+  #item1{
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      right: 0;
+  }
+  #item2{
+      position: absolute;
+      z-index: 2;
+      top: 80px;
+      left: 35px;
+      
+  }
+  #item3{
+      position: absolute;
+      z-index: 3;
+      left: 0;
+      bottom:0;
+  }
+  .second {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    background-color: white;  
+}
+.card:hover{
+    transform: scale(1.04);
+}
+.main_button:hover{
+    transform: translateY(1.04);
+}
+@media screen and (min-width:320px) and (max-width:980px) {
+    .item{
+        position: relative;
+    }
+    #item1{
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        right: 0;
+    }
+    #item2{
+        position: absolute;
+        z-index: 3;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    #item3{
+        position: absolute;
+        z-index: 2;
+        right: 0;
+        top:0;
+    }
+}
+@media screen and (min-width:320px)  and (max-width:970px) {
+    .second{
+        display: flex;
+        font-size:20px;
+        margin-top: -500px;
+    }
+}
+@media screen and (max-width:720px)and (min-width:320px) {
+    .back{
+        background-image: url(back1.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh; 
+    }
+    .main_text{
+        color: black;
+        display: flex;
+        justify-content: left;
+        text-align: left;
+        font-size: 15px;
+        padding:10px 80px 50px;
+    }
+    .main_button {
+        cursor: pointer;
+        font-weight: 700;
+        font-family: Helvetica,"sans-serif";
+        transition: all .2s;
+        padding: 10px 20px;
+        background: black;
+        color: white;
+        border: solid transparent;
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+       margin: 10px 80px 50px;
+       }
+       
+       .main_button > svg {
+        width: 34px;
+        margin-left: 10px;
+        transition: transform .3s ease-in-out;
+       }
+       
+       .main_button:hover svg {
+        transform: translateX(5px);
+       }
+       
+       .main_button:active {
+        transform: scale(0.95);
+       }
+       #button-icon{
+           padding-left: 20px;
+           color: white;
+           font-size: 15px;
+       }
+
+}
